@@ -37,8 +37,8 @@
   margin-top: -10 px;
 }
 
-p{
-  font-family: 'Noto Sans JP', sans-serif;
+p {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /*header and header sub text styling*/
@@ -51,14 +51,14 @@ h1 {
 /*creating desired spacing for header*/
 h6 {
   margin: 0px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /*spacing in between restaurant fetches*/
 h3 {
   margin: 60px;
   color: #de4343;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /*no underline on anchor restaurant tags! */
@@ -87,4 +87,3 @@ h3:hover {
   color: white;
   text-align: center;
 }
-

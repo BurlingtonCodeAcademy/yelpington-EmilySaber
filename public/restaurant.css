@@ -18,9 +18,9 @@
 }
 
 /* columm where restaurant info is displayed */
-#restinfo{
+#restinfo {
   text-align: center;
-  width:30vw;
+  width: 30vw;
   margin-right: 20px;
 }
 
@@ -49,24 +49,27 @@ h1 {
   margin: 20px;
 }
 
+h6 {
+  margin: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*RESTAURANT HEADER */
 h2 {
   font-family: "Concert One", cursive;
   font-size: 40px;
 }
 
-h6 {
-  margin: 0px;
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
+/*ANCHOR STYLE FOR HEADER*/
 a {
   text-decoration: none;
   color: white;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-p{
-  font-family: 'Noto Sans JP', sans-serif;
+/*RESTAURANT INFO STYLE*/
+p {
+  font-family: "Noto Sans JP", sans-serif;
   margin: 10px;
 }
 
@@ -81,4 +84,3 @@ p{
   color: white;
   text-align: center;
 }
-
