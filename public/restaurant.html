@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YELPINGTON</title>
+    <title>Find Food!</title>
+
     <!--GOOGLE FONT IMPORTS-->
     <link
       href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
@@ -29,29 +30,40 @@
       crossorigin=""
     ></script>
 
-    <!--MY CSS STYLE SHEET-->
-    <link href="index.css" rel="stylesheet" />
+    <!--MY CSS STLYE SHEET-->
+    <link href="restaurant.css" rel="stylesheet" />
   </head>
-
   <body>
     <!--MAIN HEADER-->
     <div id="header">
-      <h1>YELPINGTON</h1>
-      <h6>Find food in your area...</h6>
+      <a id="yelpington" href="./index.html">
+        <h1>YELPINGTON</h1>
+        <h6>Find food in your area...</h6>
+      </a>
     </div>
-    <!--FLEX BOX DIV FOR COLUMN AND MAP TO BE IN A ROW-->
-    <div id="navmapflex">
-      <!--SIDE BAR WITH RESTAURANT NAMES-->
-      <div id="sidebar">
-        <i>Featured restaurants: </i>
+    <!--DIV FOR MY RESTAURANT FLEXBOX!-->
+    <div id="mapflex">
+      <!--WHERE RESTAURANT DATA IS DISPLAYED!-->
+
+      <div id="restinfo">
+        <h2 id="name"></h2>
+        <br />
+        <p id="address"></p>
+        <br />
+        <p id="phone-num"></p>
+        <br />
+        <p id="hours"></p>
+        <br />
+        <p id="notes"><b>User Comments:</b> </b></p>
+        <br />
       </div>
 
-      <!-- DIV FOR LEAFLET MAP-->
+      <!--WHERE LEAFLET IS DISPLAYED!-->
       <div id="mapid"></div>
     </div>
 
-    <!--MY JS FILE IMPORT-->
-    <script src="index.js"></script>
+    <!--MY JS FILE SOURCED HERE-->
+    <script src="restaurant.js"></script>
 
     <!--FOOTER-->
     <div id="footer"></div>

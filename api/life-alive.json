@@ -1,0 +1,15 @@
+{
+  "id": "life-alive",
+  "name": "Life Alive",
+  "address": "765 Massachusetts Ave, Cambridge, MA 02139",
+  "phonenumber": "(617) 354-5433",
+  "hours": "8AM-9PM",
+  "lat": 42.366573,
+  "long": -71.105309,
+  "notes": [
+        "An eclectic menu with a hippie vibe.",
+        "My all time favorite food place in Boston!",
+        "Vegetarian and vegan oasis."
+
+      ]
+}

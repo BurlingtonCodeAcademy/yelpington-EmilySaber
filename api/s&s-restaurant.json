@@ -1,0 +1,15 @@
+{
+      "id": "s&s-restaurant",
+      "name": "S&S Restaurant",
+      "address": "1334 Cambridge St, Cambridge, MA 02139",
+      "phonenumber": "(617) 354-0777",
+      "hours": "11AM-7PM",
+      "lat": 42.373382,
+      "long": -71.099966,
+      "notes":[
+            "Cambridge, MA staple!",
+            "Get an order of pickles, you wont regret it.",
+            "Delicious bakery- I always get the lemon poppy seed cookies."
+
+      ]
+}
